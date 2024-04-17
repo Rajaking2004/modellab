@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Camu</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>camu</h1>
+    <div class="student-form">
+      <label for="student-name">Student Name:</label>
+      <input type="text" id="student-name">
+      <label for="student-id">Student ID:</label>
+      <input type="text" id="student-id">
+      <button onclick="addStudent()">Add Student</button>
+    </div>
+    <div class="event-form">
+      <label for="event-name">project Name:</label>
+      <input type="text" id="event-name">
+      <label for="student-select">Select Student:</label>
+      <select id="student-select"></select>
+      <button onclick="addEvent()">Add</button>
+    </div>
+    <div class="student-details">
+      <h2>Student Details</h2>
+      <div id="student-details"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
